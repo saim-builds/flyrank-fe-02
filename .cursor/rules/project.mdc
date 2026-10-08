@@ -1,0 +1,32 @@
+
+ Project Rules
+
+This repository is for the FlyRank AI Internship FE-01 assignment.
+
+ Stack
+
+- Windows development environment
+- Node.js LTS
+- Git
+- GitHub
+- Cursor IDE
+- AI-assisted development with Cursor
+
+ Code Conventions
+
+- Keep code simple and readable.
+- Prefer clear and descriptive names.
+- Avoid unnecessary dependencies.
+- Do not introduce unnecessary complexity.
+- Review AI-generated code before accepting it.
+
+ Git Conventions
+
+Use Conventional Commits.
+
+ AI Usage
+
+Use AI to assist with planning, reviewing, explaining, and improving code.
+
+Do not blindly accept generated code. Verify the result and understand
+important changes before committing them.
