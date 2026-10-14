@@ -1,26 +1,33 @@
-# FlyRank AI Internship — FE-01
+# AI-Assisted Development Workflow Comparison
 
-## Environment and AI Toolchain
+## Objective
 
-This repository contains my work for the FlyRank AI Internship, Frontend AI Engineering track, Assignment FE-01.
+Compare two implementations of the same settings form. The first used a vague prompt, while the second used explicit requirements, constraints, and verification instructions.
 
-## Purpose
+## Experiment Setup
 
-The purpose of this assignment is to set up a professional development environment and establish an AI-assisted development workflow.
+Both implementations were developed on separate Git branches from the same baseline. The first branch used a single broad instruction. The second used an explore-plan-implement-test-review workflow.
 
-## Development Environment
+## Correctness
 
-- Operating System: Windows
-- Runtime: Node.js LTS
-- Version Control: Git
-- Repository Hosting: GitHub
-- IDE: Cursor
-- AI-Assisted Development: Cursor AI
+Describe the specific validation behaviors supported by each implementation. Reference actual files and tests. Explain whether empty names, whitespace-only names, and invalid email addresses were handled correctly.
 
-## Project Conventions
+## Accessibility
 
-- Use Git for version control.
-- Follow Conventional Commits.
-- Keep documentation clear and concise.
-- Use AI assistance responsibly and review generated code before using it.
-- Keep project configuration and development rules documented.
+Compare input labels, error-message associations, keyboard interaction, and feedback for invalid submissions. Mention only issues confirmed during code review or testing.
+
+## Edge Cases
+
+Explain which edge cases were considered and which automated tests verified them. Document any remaining failures or limitations.
+
+## Review Effort
+
+Describe the changes required after AI generation, including incorrect assumptions, unnecessary edits, missing tests, or implementation defects. Include concrete examples from the Git diff.
+
+## AI Mistake Caught
+
+Document at least one actual AI-generated mistake, the evidence used to identify it, and how it was corrected. Do not invent a mistake if none was observed.
+
+## Conclusion
+
+Summarize which workflow produced the more reliable result and why. Discuss the value of explicit requirements, automated tests, and human review rather than prompt length alone.
