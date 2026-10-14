@@ -1,32 +1,11 @@
+ Project Development Rules
 
- Project Rules
+1. Inspect the existing project structure and conventions before creating or modifying files. Do not introduce a new framework, dependency, or configuration without justification.
 
-This repository is for the FlyRank AI Internship FE-01 assignment.
+2. Every form must provide accessible labels, understandable validation feedback, and programmatic associations between invalid fields and their error messages.
 
- Stack
+3. For user input, test required fields, whitespace-only values, invalid formats, and successful submission using the project's existing testing framework.
 
-- Windows development environment
-- Node.js LTS
-- Git
-- GitHub
-- Cursor IDE
-- AI-assisted development with Cursor
+4. Never claim that data is saved to a database or API unless the implementation actually performs that operation.
 
- Code Conventions
-
-- Keep code simple and readable.
-- Prefer clear and descriptive names.
-- Avoid unnecessary dependencies.
-- Do not introduce unnecessary complexity.
-- Review AI-generated code before accepting it.
-
- Git Conventions
-
-Use Conventional Commits.
-
- AI Usage
-
-Use AI to assist with planning, reviewing, explaining, and improving code.
-
-Do not blindly accept generated code. Verify the result and understand
-important changes before committing them.
+5. After implementing a feature, run relevant tests and available lint/build checks. Report actual results and inspect the final diff for unrelated changes.
