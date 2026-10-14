@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Manage your FlyRank account settings." />
+    <title>Account settings | FlyRank</title>
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="settings-panel" aria-labelledby="page-title">
+        <header class="settings-header">
+          <p class="eyebrow">Account</p>
+          <h1 id="page-title">Your settings</h1>
+          <p class="intro">Keep your profile details and notification preferences up to date.</p>
+        </header>
+
+        <form id="settings-form" novalidate>
+          <div class="form-field">
+            <label for="display-name">Display name</label>
+            <input id="display-name" name="displayName" type="text" autocomplete="name" aria-describedby="display-name-error" />
+            <p class="field-error" id="display-name-error" role="alert"></p>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" aria-describedby="email-error" />
+            <p class="field-error" id="email-error" role="alert"></p>
+          </div>
+
+          <label class="checkbox-field" for="email-notifications">
+            <input id="email-notifications" name="emailNotifications" type="checkbox" />
+            <span>
+              <strong>Email notifications</strong>
+              <small>Receive occasional updates and account activity emails.</small>
+            </span>
+          </label>
+
+          <button type="submit" id="save-button">Save changes</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
