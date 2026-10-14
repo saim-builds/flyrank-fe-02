@@ -1,0 +1,14 @@
+{
+  "name": "flyrank-fe-01",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  }
+}
